@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Introduction to HTML5</li>
+        <li>HTML5 Multimedia Elements</li>
+        <li>Form Elements and Validation</li>
+        <li>HTML5 Tables and Lists</li>
+        <li>CSS and HTML5 Styling</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>HTML5 Image Example</h2>
+    <img src="https://images.pexels.com/photos/3782852/pexels-photo-3782852.jpeg" alt="Nature" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, City, Country</td>
+                <td>123-456-7890</td>
+                <td>johndoe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave, City, Country</td>
+                <td>987-654-3210</td>
+                <td>janesmith@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>789 Pine Rd, City, Country</td>
+                <td>555-123-4567</td>
+                <td>michael.johnson@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily Brown</td>
+                <td>101 Maple Blvd, City, Country</td>
+                <td>555-987-6543</td>
+                <td>emilybrown@example.com</td>
+            </tr>
+            <tr>
+                <td>David White</td>
+                <td>202 Birch Dr, City, Country</td>
+                <td>555-555-5555</td>
+                <td>davidwhite@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label for="terms">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
